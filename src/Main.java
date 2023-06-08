@@ -1,7 +1,7 @@
 public class Main {
     private static void firstNonRepeated(String s) {
-        String s1 = ""; // First non-repeated character, if one exists
-        String prev = "";
+        String s1; // First non-repeated character, if one exists
+        String prev;
         String[] sList = new String[s.length()];
 
         for (int i = 0; i < s.length(); i++) {
